@@ -1,4 +1,4 @@
-package br.com.minhasFinancas.service.impl;
+package br.com.gerenciadorTasks.service.impl;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -11,11 +11,11 @@ import org.springframework.data.domain.ExampleMatcher.StringMatcher;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.minhasFinancas.exception.RegraNegocioException;
-import br.com.minhasFinancas.model.entity.Task;
-import br.com.minhasFinancas.model.enums.StatusTask;
-import br.com.minhasFinancas.model.repository.TaskRepository;
-import br.com.minhasFinancas.service.TaskService;
+import br.com.gerenciadorTasks.exception.RegraNegocioException;
+import br.com.gerenciadorTasks.model.entity.Task;
+import br.com.gerenciadorTasks.model.enums.StatusTask;
+import br.com.gerenciadorTasks.model.repository.TaskRepository;
+import br.com.gerenciadorTasks.service.TaskService;
 
 @Service
 public class TaskServiceImpl implements TaskService {

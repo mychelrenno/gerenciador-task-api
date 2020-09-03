@@ -1,4 +1,4 @@
-package br.com.minhasFinancas.exception;
+package br.com.gerenciadorTasks.exception;
 
 public class RegraNegocioException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package br.com.minhasFinancas.api.resource;
+package br.com.gerenciadorTasks.api.resource;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.minhasFinancas.api.dto.AtualizaStatusDTO;
-import br.com.minhasFinancas.api.dto.TaskDTO;
-import br.com.minhasFinancas.exception.RegraNegocioException;
-import br.com.minhasFinancas.model.entity.Task;
-import br.com.minhasFinancas.model.enums.StatusTask;
-import br.com.minhasFinancas.service.TaskService;
+import br.com.gerenciadorTasks.api.dto.AtualizaStatusDTO;
+import br.com.gerenciadorTasks.api.dto.TaskDTO;
+import br.com.gerenciadorTasks.exception.RegraNegocioException;
+import br.com.gerenciadorTasks.model.entity.Task;
+import br.com.gerenciadorTasks.model.enums.StatusTask;
+import br.com.gerenciadorTasks.service.TaskService;
 
 @RestController
 @RequestMapping("/api/tasks")

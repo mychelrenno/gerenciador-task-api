@@ -1,4 +1,4 @@
-package br.com.minhasFinancas.api.dto;
+package br.com.gerenciadorTasks.api.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

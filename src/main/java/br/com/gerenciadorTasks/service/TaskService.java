@@ -1,10 +1,10 @@
-package br.com.minhasFinancas.service;
+package br.com.gerenciadorTasks.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import br.com.minhasFinancas.model.entity.Task;
-import br.com.minhasFinancas.model.enums.StatusTask;
+import br.com.gerenciadorTasks.model.entity.Task;
+import br.com.gerenciadorTasks.model.enums.StatusTask;
 
 public interface TaskService {
 

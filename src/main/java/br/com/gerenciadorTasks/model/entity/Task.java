@@ -1,4 +1,4 @@
-package br.com.minhasFinancas.model.entity;
+package br.com.gerenciadorTasks.model.entity;
 
 import java.time.LocalDate;
 
@@ -14,14 +14,14 @@ import javax.persistence.Table;
 
 import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;
 
-import br.com.minhasFinancas.model.enums.StatusTask;
+import br.com.gerenciadorTasks.model.enums.StatusTask;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "task", schema = "financas")
+@Table(name = "task", schema = "taskmanager")
 @Data
 @Builder
 @NoArgsConstructor

@@ -1,4 +1,4 @@
-package br.com.minhasFinancas.model.enums;
+package br.com.gerenciadorTasks.model.enums;
 
 public enum StatusTask {
 
